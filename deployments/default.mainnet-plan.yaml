@@ -1,0 +1,18 @@
+---
+id: 0
+name: Mainnet deployment
+network: mainnet
+stacks-node: "https://stacks-node-api.mainnet.stacks.co"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoin.blockstack.com:8332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: btc-tx-enabled-nft
+            expected-sender: SPG6QK0VMGMS6QEPFCZY1ACY6DXSB8MA0ASGTR2
+            cost: 28210
+            path: contracts/btc-tx-enabled-nft.clar
+            anchor-block-only: true
+            clarity-version: 4
+      epoch: "3.3"
