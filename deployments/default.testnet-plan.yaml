@@ -10,9 +10,9 @@ plan:
       transactions:
         - requirement-publish:
             contract-id: SP2PABAF9FTAJYNFZH93XENAJ8FVY99RRM50D2JG9.nft-trait
-            remap-sender: STVCNGGBVZSZZHBCEVM80WYTGD01TXGH71VJWQJT
+            remap-sender: ST13ZD65M91R0385AVD235WC5D9MJXBMET9NJN38R
             remap-principals:
-              SP2PABAF9FTAJYNFZH93XENAJ8FVY99RRM50D2JG9: STVCNGGBVZSZZHBCEVM80WYTGD01TXGH71VJWQJT
+              SP2PABAF9FTAJYNFZH93XENAJ8FVY99RRM50D2JG9: ST13ZD65M91R0385AVD235WC5D9MJXBMET9NJN38R
             cost: 4680
             path: "./.cache/requirements/SP2PABAF9FTAJYNFZH93XENAJ8FVY99RRM50D2JG9.nft-trait.clar"
             clarity-version: 1
@@ -21,9 +21,9 @@ plan:
       transactions:
         - requirement-publish:
             contract-id: SP2PABAF9FTAJYNFZH93XENAJ8FVY99RRM50D2JG9.clarity-bitcoin-lib-v5
-            remap-sender: STVCNGGBVZSZZHBCEVM80WYTGD01TXGH71VJWQJT
+            remap-sender: ST13ZD65M91R0385AVD235WC5D9MJXBMET9NJN38R
             remap-principals:
-              SP2PABAF9FTAJYNFZH93XENAJ8FVY99RRM50D2JG9: STVCNGGBVZSZZHBCEVM80WYTGD01TXGH71VJWQJT
+              SP2PABAF9FTAJYNFZH93XENAJ8FVY99RRM50D2JG9: ST13ZD65M91R0385AVD235WC5D9MJXBMET9NJN38R
             cost: 299750
             path: "./.cache/requirements/SP2PABAF9FTAJYNFZH93XENAJ8FVY99RRM50D2JG9.clarity-bitcoin-lib-v5.clar"
             clarity-version: 2
@@ -32,7 +32,7 @@ plan:
       transactions:
         - contract-publish:
             contract-name: btc-tx-enabled-nft
-            expected-sender: STVCNGGBVZSZZHBCEVM80WYTGD01TXGH71VJWQJT
+            expected-sender: ST13ZD65M91R0385AVD235WC5D9MJXBMET9NJN38R
             cost: 27810
             path: contracts/btc-tx-enabled-nft.clar
             anchor-block-only: true
